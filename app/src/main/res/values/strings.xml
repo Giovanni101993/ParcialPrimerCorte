@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Miprimerejemplo</string>
+    <string name="calculadora">CALCULADORA</string>
+    <string name="fib">1. Serie Fibonacci</string>
+    <string name="pot">2. Potencia</string>
+    <string name="mult">3. Multiplicación</string>
+    <string name="seleccione">Seleccione una opción</string>
+    <string name="ir">Ir</string>
+    <string name="ingrese">Ingrese un número</string>
+    <string name="calcular">Calcular</string>
+    <string name="volver">Volver</string>
+    <string name="limpiar">Limpiar</string>
+</resources>
