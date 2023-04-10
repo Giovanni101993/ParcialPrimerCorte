@@ -36,7 +36,9 @@ public class fibonacci extends AppCompatActivity {
                 num = Integer.parseInt(editNum1.getText().toString());
 
                 Calculadora calculo = new Calculadora();
-                textResultado.setText(calculo.operacionFib(num));
+                
+                //calculo.operacionFib(num);
+                textResultado.setText(calculo.operacionFib(num)+" ");
             }
         });
 

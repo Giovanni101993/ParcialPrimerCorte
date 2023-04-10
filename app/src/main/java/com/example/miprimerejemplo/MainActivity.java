@@ -46,6 +46,10 @@ public class MainActivity extends AppCompatActivity {
                         cambiarMultiplicacion();
                         break;
 
+                    case 4:
+                        cambiarMapa();
+                        break;
+
                     default:
                         Toast.makeText(getApplicationContext(),"El número ingresado no es valido", Toast.LENGTH_SHORT).show();
                 }
@@ -66,6 +70,11 @@ public class MainActivity extends AppCompatActivity {
         public void cambiarMultiplicacion(){
             Intent multiplicacion = new Intent(this, multiplicacion.class);
             startActivity(multiplicacion);
+        }
+
+        public void cambiarMapa(){
+            Intent mapa = new Intent(this, mapa.class);
+            startActivity(mapa);
         }
 
 

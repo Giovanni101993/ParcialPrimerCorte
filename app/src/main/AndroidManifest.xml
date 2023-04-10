@@ -12,6 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Miprimerejemplo"
         tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyDrQDhWks1w6Fo0yFHbZpJ53Xhq7tvBJDM"
+            />
+
+        <activity
+            android:name=".mapa"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".multiplicacion"
             android:exported="false">
