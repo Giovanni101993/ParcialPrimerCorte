@@ -10,7 +10,7 @@ public class Calculadora {
             this.n2=n2;
         }
 
-        private int operacionMult(){
+        public int operacionMult(){
             res= n1*n2;
             return res;
         }

@@ -21,8 +21,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.257"
         map:cameraZoom="15"
-        map:uiRotateGestures="true"
-        />
+        map:uiRotateGestures="true" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -46,4 +45,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/map"
         app:layout_constraintVertical_bias="0.281" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
